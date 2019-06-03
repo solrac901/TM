@@ -58,12 +58,13 @@
               "id": "f8e53d00-e2bf-4441-8df2-8afbce6f30b2",
               "z": 2,
               "hasOpenThreats": false,
+              "isEncrypted": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 1"
+                  "text": "Data encrypted in\nMemory"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -105,7 +106,12 @@
               "target": {
                 "id": "e8d0f352-cd60-474b-97da-fe3d82df117c"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 203,
+                  "y": 160
+                }
+              ],
               "id": "15ee9e7b-8a9e-4990-ab62-62667fc705e3",
               "labels": [
                 {
