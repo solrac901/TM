@@ -66,17 +66,25 @@
               "angle": 0,
               "id": "f8e53d00-e2bf-4441-8df2-8afbce6f30b2",
               "z": 2,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isEncrypted": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "title": "Memory access protection"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Data encrypted in\nMemory"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
