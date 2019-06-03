@@ -30,17 +30,26 @@
               "angle": 0,
               "id": "e8d0f352-cd60-474b-97da-fe3d82df117c",
               "z": 1,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "privilegeLevel": "Normal User",
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "title": "Information exposed to other normal users",
+                  "mitigation": "verify the privilege of the functions and the user that have access to the information an usage of the function"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Node JS\nEncrypt"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
