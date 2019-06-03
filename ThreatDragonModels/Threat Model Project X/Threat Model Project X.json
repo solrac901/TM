@@ -95,6 +95,74 @@
                   "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "454f4c03-909e-408c-aa03-d8f35c89672f"
+              },
+              "target": {
+                "id": "e8d0f352-cd60-474b-97da-fe3d82df117c"
+              },
+              "vertices": [],
+              "id": "15ee9e7b-8a9e-4990-ab62-62667fc705e3",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 3",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "e8d0f352-cd60-474b-97da-fe3d82df117c"
+              },
+              "target": {
+                "id": "f8e53d00-e2bf-4441-8df2-8afbce6f30b2"
+              },
+              "vertices": [],
+              "id": "9ff4ba5e-1318-42d5-8e27-e993b1780958",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 4",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
