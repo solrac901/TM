@@ -1,0 +1,22 @@
+{
+  "summary": {
+    "title": "Threat Model Project X",
+    "owner": "Carlos",
+    "description": "Threat Model Project  Software"
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "rodrigo.pulido@intel.com"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Core functionality",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "Rodrigo"
+  }
+}
