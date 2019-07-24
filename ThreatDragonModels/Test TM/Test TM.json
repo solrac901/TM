@@ -2008,6 +2008,76 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "c933b31b-8e6e-414b-b3d6-14c59281d5d2"
+              },
+              "target": {
+                "id": "74994660-fe30-45c5-948c-586129b4f321"
+              },
+              "vertices": [],
+              "id": "1fbd32f5-e0d1-41c6-9483-d61d209aad4e",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Data",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 66,
+              "hasOpenThreats": false,
+              "protocol": "TCP",
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "74994660-fe30-45c5-948c-586129b4f321"
+              },
+              "target": {
+                "id": "c933b31b-8e6e-414b-b3d6-14c59281d5d2"
+              },
+              "vertices": [],
+              "id": "27114d6a-0b0b-423f-bb5b-fa50f8b790c8",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Data",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 67,
+              "hasOpenThreats": false,
+              "protocol": "TCP",
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
