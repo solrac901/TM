@@ -854,8 +854,8 @@
                 "height": 100
               },
               "position": {
-                "x": 327,
-                "y": 737
+                "x": 405,
+                "y": 701
               },
               "angle": 0,
               "id": "6de5d8df-27a0-491a-a61d-28d2d96c38b0",
@@ -867,7 +867,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "EMI"
+                  "text": "Intel MEI driver"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -916,8 +916,8 @@
                 "height": 100
               },
               "position": {
-                "x": 363,
-                "y": 920
+                "x": 407,
+                "y": 960
               },
               "angle": 0,
               "id": "8aab3e2d-8bd5-493b-9975-6239101fcac9",
@@ -1013,8 +1013,8 @@
                 "height": 100
               },
               "position": {
-                "x": 103,
-                "y": 793
+                "x": 190,
+                "y": 774
               },
               "angle": 0,
               "id": "dbe57b80-34bf-4918-8d2c-d33496cb5325",
@@ -1041,7 +1041,7 @@
               },
               "position": {
                 "x": 12,
-                "y": 615
+                "y": 993
               },
               "angle": 0,
               "id": "3a09981c-d160-409a-8d6b-607c57fc6d96",
@@ -1069,14 +1069,19 @@
               "target": {
                 "id": "5aaf6d8f-7359-4be8-8cdc-829988bcb234"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 144,
+                  "y": 736
+                }
+              ],
               "id": "503758f9-9d86-4794-bd23-176d8887e695",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 34",
+                      "text": "Network\nComunicattion",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1103,7 +1108,12 @@
               "target": {
                 "id": "3a09981c-d160-409a-8d6b-607c57fc6d96"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 64,
+                  "y": 701
+                }
+              ],
               "id": "1cb2227c-7c1c-40d4-bcad-b79c28923b61",
               "labels": [
                 {
@@ -1222,6 +1232,177 @@
                 }
               ],
               "z": 40,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "6de5d8df-27a0-491a-a61d-28d2d96c38b0"
+              },
+              "target": {
+                "id": "8aab3e2d-8bd5-493b-9975-6239101fcac9"
+              },
+              "vertices": [],
+              "id": "6825b5f0-5a9e-47bb-8ae4-692761add595",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Driver Calls",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 41,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "3a09981c-d160-409a-8d6b-607c57fc6d96"
+              },
+              "target": {
+                "id": "8aab3e2d-8bd5-493b-9975-6239101fcac9"
+              },
+              "vertices": [],
+              "id": "7995636d-fc5f-48c6-bf42-b58683b341bf",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Network\nCommunication",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 42,
+              "hasOpenThreats": false,
+              "protocol": "UDP",
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "8aab3e2d-8bd5-493b-9975-6239101fcac9"
+              },
+              "target": {
+                "id": "3a09981c-d160-409a-8d6b-607c57fc6d96"
+              },
+              "vertices": [],
+              "id": "180c6bfe-6e38-4588-81e8-af43495f1536",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 43,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "dbe57b80-34bf-4918-8d2c-d33496cb5325"
+              },
+              "target": {
+                "id": "6de5d8df-27a0-491a-a61d-28d2d96c38b0"
+              },
+              "vertices": [],
+              "id": "229966ca-8c5b-4951-9077-a6c6b94ece4b",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 41",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 44,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "6de5d8df-27a0-491a-a61d-28d2d96c38b0"
+              },
+              "target": {
+                "id": "dbe57b80-34bf-4918-8d2c-d33496cb5325"
+              },
+              "vertices": [],
+              "id": "e099234a-0d2f-4a05-8fd2-a5cfffe18647",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Driver Call",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 45,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
