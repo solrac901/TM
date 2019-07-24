@@ -1621,6 +1621,7 @@
               ],
               "z": 54,
               "hasOpenThreats": false,
+              "protocol": "TCP",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -1655,6 +1656,7 @@
               ],
               "z": 55,
               "hasOpenThreats": false,
+              "protocol": "TCP",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -1689,6 +1691,7 @@
               ],
               "z": 56,
               "hasOpenThreats": false,
+              "protocol": "TCP",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -1928,6 +1931,74 @@
                 }
               ],
               "z": 63,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "646aca73-b815-4dba-b6fd-a24fe42ecb1a"
+              },
+              "target": {
+                "id": "d3af7488-1194-4a1e-854c-213a28d84234"
+              },
+              "vertices": [],
+              "id": "cfe98331-35cb-4c35-9065-5f43ac17939e",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 59",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 64,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "d3af7488-1194-4a1e-854c-213a28d84234"
+              },
+              "target": {
+                "id": "646aca73-b815-4dba-b6fd-a24fe42ecb1a"
+              },
+              "vertices": [],
+              "id": "c9cfcb30-4540-436a-8e6b-f403a564eebf",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Queu Messagges",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 65,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
