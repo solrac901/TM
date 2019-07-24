@@ -665,8 +665,8 @@
                 "height": 80
               },
               "position": {
-                "x": 1269,
-                "y": 952
+                "x": 1265,
+                "y": 1013
               },
               "angle": 0,
               "id": "82562940-c2fb-446a-8184-6bf17ce34720",
@@ -734,8 +734,8 @@
               },
               "vertices": [
                 {
-                  "x": 1096,
-                  "y": 664
+                  "x": 1104,
+                  "y": 764
                 }
               ],
               "id": "905108c3-ac8b-483a-a086-064740c12da9",
@@ -1698,6 +1698,84 @@
                 }
               ],
               "z": 56,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "74994660-fe30-45c5-948c-586129b4f321"
+              },
+              "target": {
+                "id": "9f3e5327-bf6c-4e4f-b036-58bc12d5abe4"
+              },
+              "vertices": [
+                {
+                  "x": 1108,
+                  "y": 819
+                }
+              ],
+              "id": "0e639032-589e-4a90-814a-743ec1b90fee",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "read config file",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 57,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "82562940-c2fb-446a-8184-6bf17ce34720"
+              },
+              "target": {
+                "id": "9f3e5327-bf6c-4e4f-b036-58bc12d5abe4"
+              },
+              "vertices": [
+                {
+                  "x": 1189,
+                  "y": 977
+                }
+              ],
+              "id": "ae97930b-d353-45df-8657-ede5f394755f",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Config Swarm Server",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 58,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
