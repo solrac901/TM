@@ -115,17 +115,27 @@
               "angle": 0,
               "id": "4ace28c6-9b7b-4a92-9314-7aa2163125d0",
               "z": 5,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "privilegeLevel": "Admin Mode",
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Cross Site Scripting",
+                  "type": "Tampering",
+                  "description": "The web server using (React) Java Script Libraries' could be a subject to a cross-site scripting attack because it does not sanitize untrusted input.",
+                  "mitigation": "Validate and fuzzing the inputs"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "GUI REACT JS"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
