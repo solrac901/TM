@@ -1469,6 +1469,85 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 11,
+                "y": 332
+              },
+              "target": {
+                "x": 587,
+                "y": 456
+              },
+              "vertices": [],
+              "id": "d96a9993-9027-4c17-878b-180fff7b9aad",
+              "z": 48,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 19,
+                "y": 374
+              },
+              "angle": 0,
+              "id": "f3da3c3e-e35c-4547-b7ab-78dddbe5f3d1",
+              "z": 49,
+              "hasOpenThreats": false,
+              "privilegeLevel": "Normal User",
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Local Browser"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "f3da3c3e-e35c-4547-b7ab-78dddbe5f3d1"
+              },
+              "target": {
+                "id": "5aaf6d8f-7359-4be8-8cdc-829988bcb234"
+              },
+              "vertices": [],
+              "id": "2dde4382-8e93-4f1a-8b2a-8e927bb7c0f4",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Local Traffic",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 50,
+              "hasOpenThreats": false,
+              "protocol": "HTTPS",
+              "isEncrypted": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
