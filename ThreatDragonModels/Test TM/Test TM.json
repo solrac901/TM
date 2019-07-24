@@ -245,8 +245,8 @@
                 "height": 80
               },
               "position": {
-                "x": 1057,
-                "y": 256
+                "x": 1176,
+                "y": 477
               },
               "angle": 0,
               "id": "c2847b6d-94d1-4689-84e8-51302c7482c8",
@@ -449,8 +449,8 @@
                 "height": 80
               },
               "position": {
-                "x": 1068,
-                "y": 447
+                "x": 1262,
+                "y": 757
               },
               "angle": 0,
               "id": "9f3e5327-bf6c-4e4f-b036-58bc12d5abe4",
@@ -484,15 +484,561 @@
               "id": "c933b31b-8e6e-414b-b3d6-14c59281d5d2",
               "z": 16,
               "hasOpenThreats": false,
+              "privilegeLevel": "Admin Mode",
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 14"
+                  "text": "Ajax Server"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 739,
+                "y": 622
+              },
+              "angle": 0,
+              "id": "74994660-fe30-45c5-948c-586129b4f321",
+              "z": 17,
+              "hasOpenThreats": false,
+              "privilegeLevel": "Admin Mode",
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Swarm Server"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 741,
+                "y": 753
+              },
+              "angle": 0,
+              "id": "646aca73-b815-4dba-b6fd-a24fe42ecb1a",
+              "z": 18,
+              "hasOpenThreats": false,
+              "privilegeLevel": "Admin Mode",
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Manageability\nServer"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "c933b31b-8e6e-414b-b3d6-14c59281d5d2"
+              },
+              "target": {
+                "id": "c2847b6d-94d1-4689-84e8-51302c7482c8"
+              },
+              "vertices": [],
+              "id": "05e71ed2-78d7-4522-b4d9-0c81bbcf077d",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 17",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 19,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "74994660-fe30-45c5-948c-586129b4f321"
+              },
+              "target": {
+                "id": "c2847b6d-94d1-4689-84e8-51302c7482c8"
+              },
+              "vertices": [],
+              "id": "6b273bbe-2f85-49ce-8d87-20213b2750d1",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 18",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 20,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "646aca73-b815-4dba-b6fd-a24fe42ecb1a"
+              },
+              "target": {
+                "id": "c2847b6d-94d1-4689-84e8-51302c7482c8"
+              },
+              "vertices": [],
+              "id": "39ddfe1d-c222-4a4f-a799-1ebc9c2e507d",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 19",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 21,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 1269,
+                "y": 952
+              },
+              "angle": 0,
+              "id": "82562940-c2fb-446a-8184-6bf17ce34720",
+              "z": 22,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Server Admin User"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "82562940-c2fb-446a-8184-6bf17ce34720"
+              },
+              "target": {
+                "id": "9f3e5327-bf6c-4e4f-b036-58bc12d5abe4"
+              },
+              "vertices": [
+                {
+                  "x": 1344,
+                  "y": 866
+                }
+              ],
+              "id": "fde68de3-365a-4ad7-8b69-4278c409e1fc",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Config Ajax Server",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 23,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "c933b31b-8e6e-414b-b3d6-14c59281d5d2"
+              },
+              "target": {
+                "id": "9f3e5327-bf6c-4e4f-b036-58bc12d5abe4"
+              },
+              "vertices": [
+                {
+                  "x": 1096,
+                  "y": 664
+                }
+              ],
+              "id": "905108c3-ac8b-483a-a086-064740c12da9",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "read config file",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 24,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 226,
+                "y": 495
+              },
+              "angle": 0,
+              "id": "5aaf6d8f-7359-4be8-8cdc-829988bcb234",
+              "z": 25,
+              "hasOpenThreats": false,
+              "privilegeLevel": "Admin Mode",
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Agent"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "5aaf6d8f-7359-4be8-8cdc-829988bcb234"
+              },
+              "target": {
+                "id": "74994660-fe30-45c5-948c-586129b4f321"
+              },
+              "vertices": [
+                {
+                  "x": 586,
+                  "y": 637
+                }
+              ],
+              "id": "9c02e85f-b6af-493f-9eaa-f02c4ed5717e",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "HTTPS",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 26,
+              "hasOpenThreats": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTPS",
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 39,
+                "y": 367
+              },
+              "target": {
+                "x": 561,
+                "y": 477
+              },
+              "vertices": [
+                {
+                  "x": 362,
+                  "y": 430
+                }
+              ],
+              "id": "d31c5706-6923-44f3-b898-152bc2e367fd",
+              "z": 27,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 295,
+                "y": 714
+              },
+              "angle": 0,
+              "id": "6de5d8df-27a0-491a-a61d-28d2d96c38b0",
+              "z": 28,
+              "hasOpenThreats": false,
+              "privilegeLevel": "Admin Mode",
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "EMI"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "6de5d8df-27a0-491a-a61d-28d2d96c38b0"
+              },
+              "target": {
+                "id": "5aaf6d8f-7359-4be8-8cdc-829988bcb234"
+              },
+              "vertices": [],
+              "id": "57946e74-9f18-4e08-8a1e-1c6e7b79de5a",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Internal\nComiunicattion",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 29,
+              "hasOpenThreats": false,
+              "protocol": "",
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "5aaf6d8f-7359-4be8-8cdc-829988bcb234"
+              },
+              "target": {
+                "id": "6de5d8df-27a0-491a-a61d-28d2d96c38b0"
+              },
+              "vertices": [],
+              "id": "8e868b65-aacc-4447-859e-5051827168b9",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 30,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 343,
+                "y": 861
+              },
+              "angle": 0,
+              "id": "8aab3e2d-8bd5-493b-9975-6239101fcac9",
+              "z": 31,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "AMT"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "8aab3e2d-8bd5-493b-9975-6239101fcac9"
+              },
+              "target": {
+                "id": "74994660-fe30-45c5-948c-586129b4f321"
+              },
+              "vertices": [],
+              "id": "70829530-e854-449c-afca-d86795412caf",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 30",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 32,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "74994660-fe30-45c5-948c-586129b4f321"
+              },
+              "target": {
+                "id": "8aab3e2d-8bd5-493b-9975-6239101fcac9"
+              },
+              "vertices": [
+                {
+                  "x": 557,
+                  "y": 824
+                }
+              ],
+              "id": "e6212c9f-1f49-4dab-8da5-45dd1d883320",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 31",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 33,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
                 }
               }
             }
